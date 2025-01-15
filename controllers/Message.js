@@ -35,7 +35,9 @@ const ControllerMessage = {
                     FROM 
                         users
                     INNER JOIN 
-                        messages ON users.id = messages.user_id;` 
+                        messages ON users.id = messages.user_id
+                        ORDER BY 
+                      messages.created_at ASC;;` 
         // const Messages = await Message.findAll();
         const [result] = await sequelize.query(query);
         res.status(200).json(result);
