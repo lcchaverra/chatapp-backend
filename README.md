@@ -29,7 +29,7 @@ Este es el backend para el chat en tiempo real, construido con **Node.js**, **Ex
    ```bash
    git clone https://github.com/lcchaverra/chatapp-backend.git
 
-2. importar la base de datos que está en la carpeta bd
+2. importar la base de datos que está en la carpeta bd, ademas la base de datos debe tener el nombre "kuepa", la configuracion de las credenciales de la base de datos va en los archivos .env
 
 3. instalar dependencias con el comando: npm install
 
