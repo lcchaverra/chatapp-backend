@@ -42,37 +42,6 @@ CREATE TABLE IF NOT EXISTS `messages` (
 -- Volcado de datos para la tabla `messages`
 --
 
-INSERT INTO `messages` (`id`, `user_id`, `content`, `is_moderator`, `created_at`) VALUES
-(1, 1, '¡Hola a todos!', 0, '2025-01-15 16:20:40'),
-(2, 1, '¡Hola a todos!', 0, '2025-01-15 16:41:24'),
-(3, 1, '¡Hola a todos!', 0, '2025-01-15 16:42:01'),
-(4, 1, 'asdasd', 0, '2025-01-15 16:44:58'),
-(5, 1, 'asdasd', 0, '2025-01-15 16:52:27'),
-(6, 1, 'asdas', 0, '2025-01-15 17:04:01'),
-(7, 1, 'gdfhfgh', 0, '2025-01-15 17:04:02'),
-(8, 1, 'bnmbnm', 0, '2025-01-15 17:04:03'),
-(9, 1, 'Zx', 0, '2025-01-15 17:04:04'),
-(10, 1, 'qweqwe', 0, '2025-01-15 17:04:05'),
-(11, 1, 'rtytru', 0, '2025-01-15 17:04:06'),
-(12, 1, 'hola soy goku tatiano', 0, '2025-01-15 17:20:54'),
-(13, 1, 'asdasd', 0, '2025-01-15 17:21:07'),
-(14, 2, 'asd', 0, '2025-01-15 17:21:36'),
-(15, 2, 'sdfgsdfg', 0, '2025-01-15 17:21:40'),
-(16, 2, 'sdfsdf', 0, '2025-01-15 17:25:53'),
-(17, 2, 'ghkjhjk', 0, '2025-01-15 17:25:55'),
-(18, 0, 'asdasdasdcxvxcvxcv', 0, '2025-01-15 17:27:09'),
-(19, 0, 'jkljkljl', 0, '2025-01-15 17:27:11'),
-(20, 0, 'jkljkjk', 0, '2025-01-15 17:27:24'),
-(21, 0, 'assadds', 0, '2025-01-15 17:27:27'),
-(22, 0, 'fg', 0, '2025-01-15 17:27:58'),
-(23, 0, 'jkljklkjlklj', 0, '2025-01-15 17:27:59'),
-(24, 0, 'ertertre', 0, '2025-01-15 17:28:01'),
-(25, 0, 'ertert', 0, '2025-01-15 17:28:02'),
-(26, 0, 'ghjghjghjghjghjghjghjghjghjghjghjghjghjghjghjghj', 0, '2025-01-15 17:28:04'),
-(27, 1, 'ghjghj', 0, '2025-01-15 17:28:23'),
-(28, 1, 'jlñklñk', 0, '2025-01-15 17:28:24'),
-(29, 0, 'assad', 0, '2025-01-15 17:29:02');
-
 -- --------------------------------------------------------
 
 --
@@ -98,7 +67,6 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` (`id`, `name`, `username`, `password`, `role`, `created_at`) VALUES
 (1, 'Juan Pérez', 'juan123', '$2b$10$dDuYlc06681zThU98wZ81uhH5mGhwehVXnXUo3MdDtalW0t2jYfUC', 'student', '2025-01-15 15:56:47'),
 (2, 'Luis Carlos Chaverra Córdoba', 'lcchaverra', '$2b$10$sYmnKOuBQbHZ4M7NmHH97OQBNvz1J6ACFVZKy.6D8Co/BNxMsEYTa', 'moderator', '2025-01-15 16:03:20'),
-(3, 'Dominga Cordoba Trejos', 'dominga1', '$2b$10$atfZHJ9ChamX2qdqHZ8LfuS78ZbCxOBKPT4F8JJkxVnkw29fdSSAe', 'student', '2025-01-15 16:03:47');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
